@@ -1,0 +1,218 @@
+body {
+  background-image: url(bro3.png);
+  background-attachment: scroll;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.navbar {
+  width: 80%;
+  margin: 0 auto;
+  height: 80px;
+  margin-bottom: -10px;
+  background-color: rgba(255,69,0,0.8);
+}
+
+.navbar .logo {
+  position: relative;
+  width: 25%;
+}
+
+.navbar .logo img {
+  padding-top: 10px;
+  margin-left: -20px;
+  height: 60px; 
+}
+
+.logo ul li {
+  display: inline-block;
+}
+
+.isinav {
+  position: relative;
+  height: 75px;
+  width: 69%;
+  margin-top: -91px;
+  margin-left: 225px;
+}
+
+.isinav ul li {
+  display: inline-block;
+  margin-right: 53px;
+  padding-top: 30px;
+  margin-left: -35px; 
+  height: 75px;
+}
+
+.isinav li a:hover {
+  color: black;
+}
+
+.masuk {
+  position: relative;
+  height: 75px;
+  width: 9%;
+  margin-left: 91%; 
+  margin-top: -91px;
+}
+
+.masuk ul li {
+  display: inline-block;
+  float: right;
+  padding-top: 30px;
+  margin-right: 20px;
+}
+
+.masuk li a:hover{
+  color: black;
+}
+
+.container {
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+  padding-bottom: 30px;
+  background-color: rgba(255,140,0,0.8);
+}
+
+.daunkelor {
+  background-color: rgb(255,140,0);
+  padding-bottom: 20px;
+}
+
+.serai {
+  background-color: rgb(255,140,0);
+  padding-bottom: 20px;
+}
+
+.sirih {
+  margin-top: 20px;
+  background-color: rgb(255,140,0);
+  padding-bottom: 88px;
+}
+
+.containerlagi {
+  width: 95%;
+  margin: 0 auto;
+  padding-bottom: 30px;
+}
+
+.containerlagi h1 {
+  padding-top: 20px;
+}
+
+.containerlagi img {
+  margin-top: 20px;
+  margin-left: 10px;
+  width: 300px;
+}
+
+.singkatsirih {
+  position: relative;
+  margin-left: 330px;
+  margin-top: -250px;
+  width: 60%;
+}
+
+.singkatsirih h3 a {
+  color: black;
+  font-size: 20px;
+}
+
+.singkatsirih h3 a:hover {
+  color: black;
+  opacity: 0.7;
+}
+
+.singkatsirih p {
+  font-size: 13px; 
+}
+
+.singkatsirih a {
+  font-size: 14px;
+  color: blue;
+}
+
+.singkatsirih a:hover {
+  color: white;
+}
+
+.singkat {
+  position: relative;
+  margin-left: 330px;
+  margin-top: -190px;
+  width: 60%;
+}
+
+.singkat h3 a {
+  color: black;
+  font-size: 20px;
+}
+
+.singkat h3 a:hover {
+  color: black;
+  opacity: 0.7;
+}
+
+.singkat p {
+  font-size: 13px; 
+}
+
+.singkat a {
+  font-size: 14px;
+  color: blue;
+}
+
+.singkat a:hover {
+  color: white;
+}
+
+
+
+
+.footer {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.logocr img {
+  float: left;
+  width: 25px;
+  padding: 2px;
+}
+
+.copyright {
+  width: 100%;
+  height: 30px;
+  background-color: grey;
+}
+
+.textcopy {
+  float: left;
+  padding-top: 5px;
+}
+
+.about li {
+  float: right;
+}
+
+.about ul li {
+  display: inline-block;
+  margin-right: 10px;
+  padding-top: 5px;
+}
+
+.about li a {
+  color: white;
+  padding: 5px;
+  text-decoration: none;
+}
+
+.about li a:hover {
+  color: black;
+}

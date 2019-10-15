@@ -1,0 +1,333 @@
+body {
+  background-image: url(bro3.png);
+  background-position: top center;
+
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.bodycontainer {
+  background-color: rgba(255,140,0,0.8);
+  width: 80%;
+  margin-top: 10px;
+  margin: 0 auto;
+}
+
+.navbar {
+  width: 80%;
+  height: 80px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  background-color: rgba(255,69,0,0.8);
+}
+
+.navbar .logo {
+  position: relative;
+  width: 25%;
+  margin: 0px;
+}
+
+.navbar .logo img {
+  padding-top: 10px;
+  margin-left: -20px;
+  height: 60px; 
+}
+
+.logo ul li {
+  display: inline-block;
+}
+
+.isinav {
+  position: relative;
+  height: 75px;
+  width: 69%;
+  margin-top: -91px;
+  margin-left: 225px;
+}
+
+.isinav ul li {
+  display: inline-block;
+  margin-right: 53px;
+  padding-top: 30px;
+  margin-left: -35px; 
+  height: 75px;
+}
+
+.isinav li a:hover {
+  color: black;
+}
+
+.masuk {
+  position: relative;
+  height: 75px;
+  width: 9%;
+  margin-left: 91%; 
+  margin-top: -91px;
+}
+
+.masuk ul li {
+  display: inline-block;
+  float: right;
+  padding-top: 30px;
+  margin-right: 20px;
+}
+
+.masuk li a:hover{
+  color: black;
+}
+
+
+
+.mint {
+  width: 300px;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+.mint img {
+  width: 300px;
+  border-radius: 100px;
+}
+
+.penjelasan {
+  width: 60%;
+  margin: 0 auto;
+}
+
+#definisi {
+  font-family: Trebuchet MS, Trebushet MS;
+  font-size: 25px;
+}
+
+.cari {
+  width: 400px;
+  padding-top: 60px;
+  margin-left: 25%;
+}
+
+.cari input {
+  width: 400px;
+  height: 60px;
+  font-size: 25px;
+  text-align: center;
+}
+
+.buttoncari {
+  position: relative;
+  float: right;
+  margin-right: 260px;
+  margin-top: -60px;
+  height: 60px;
+}
+
+.buttoncari button {
+  height: 60px;
+  width: 80px;
+  font-size: 25px;
+  background-color: green;
+  border-style: none;
+}
+
+.iconnavbar {
+  width: 95%;
+  margin: 0 auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.olaholah {
+  position: relative;
+  border-radius: 10px;
+  margin-left: 20px;
+  width: 250px;
+  height: 80px;
+  padding-top: 3px;
+  text-align: center;
+  background-color: green;
+}
+
+.olaholah:hover a {
+  opacity: 0.8
+}
+
+.budi {
+  position: relative;
+  border-radius: 10px;
+  margin-left: 34%; 
+  margin-top: -85px;
+  width: 250px;
+  height: 80px;
+  padding-top: 3px;
+  text-align: center;
+  background-color: green;
+}
+
+.budi a:hover {
+  opacity: 0.8;
+}
+
+.RMan {
+  position: relative;
+  border-radius: 10px;
+  margin-top: -85px;
+  margin-left: 65%;
+  width: 320px;
+  height: 80px;
+  padding-top: 3px;
+  text-align: center;
+  background-color: green;
+}
+
+.RMan a:hover {
+  opacity: 0.8;
+} 
+
+.kenapa {
+  width: 80%;
+  margin: 0 auto;
+}
+
+#why {
+  font-family: Arial Black, Arial;
+  font-size: 50px;
+}
+
+.satu {    
+  width: 60px;
+  margin-left: 40px;
+}
+
+.satu img {
+  width: 60px;
+}
+
+.satudef {
+  position: relative;                           
+  margin-left: 110px;                     
+  margin-top: -40px;
+  width: 60%;
+}
+
+.satudef #defsatu {
+  text-align: justify;
+}
+
+.duadef {
+  float: right;
+  margin-top: 20px;
+  width: 60%;
+}
+
+.duadef #defdua {
+  text-align: justify;
+}
+
+.dua {
+  position: relative;
+  float: right;
+  width: 60px;
+  margin-right: 40px;
+}
+
+.dua img {
+  width: 60px;
+}
+
+.tiga {
+  position: absolute;
+  width: 60px;
+  margin-left: 40px;
+  margin-top: 180px;
+}                                                                                                                          
+                  
+.tiga img {
+  width: 60px;
+}
+
+.tigadef {
+  position: relative;                           
+  margin-left: 110px;                     
+  margin-top: 230px;
+  width: 60%;
+}
+
+.tigadef #deftiga {
+  text-align: justify;
+}
+
+.empatdef {
+  margin-left: 19%;
+  margin-top: 55px;
+  padding-bottom: 30px;
+  width: 70%;
+}
+
+.empatdef #defempat {
+  text-align: justify;
+}
+
+.empat {
+  float: right;
+  width: 60px;
+  margin-right: 40px;
+}
+
+.empat img {
+  width: 60px;
+}
+
+
+
+
+.bawah {
+  width: 100%;
+}
+
+.bawah img {
+  width: 100%;
+}
+
+.footer {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.logocr img {
+  float: left;
+  width: 25px;
+  padding: 2px;
+}
+
+.copyright {
+  width: 100%;
+  height: 30px;
+  background-color: grey;
+}
+
+.textcopy {
+  float: left;
+  padding-top: 5px;
+}
+
+.about li {
+  float: right;
+}
+
+.about ul li {
+  display: inline-block;
+  margin-right: 10px;
+  padding-top: 5px;
+}
+
+.about li a {
+  color: white;
+  padding: 5px;
+  text-decoration: none;
+}
+
+.about li a:hover {
+  color: black;
+}

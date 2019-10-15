@@ -1,0 +1,315 @@
+body {
+  background-image: url(herbaaa.png);
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+}
+
+.bodycontainer {
+  width: 80%;
+  height: 100%;
+  margin-top: 0;
+  margin: 0 auto;
+}
+
+.navbar {
+  width: 100%;
+  height: 80px;
+  background-color: rgba(255,69,0,0.8);
+}
+
+.navbar .logo {
+  position: relative;
+  width: 25%;
+  margin: 0px;
+}
+
+.navbar .logo img {
+  padding-top: 10px;
+  margin-left: -20px;
+  height: 60px; 
+}
+
+.logo ul li {
+  display: inline-block;
+}
+
+.isinav {
+  position: relative;
+  height: 75px;
+  width: 69%;
+  margin-top: -91px;
+  margin-left: 225px;
+}
+
+.isinav ul li {
+  display: inline-block;
+  margin-right: 53px;
+  padding-top: 30px;
+  margin-left: -35px; 
+  height: 75px;
+}
+
+.isinav li a:hover {
+  color: black;
+}
+
+.masuk {
+  position: relative;
+  height: 75px;
+  width: 9%;
+  margin-left: 91%; 
+  margin-top: -91px;
+}
+
+.masuk ul li {
+  display: inline-block;
+  float: right;
+  padding-top: 30px;
+  margin-right: 20px;
+}
+
+.masuk li a:hover{
+  color: black;
+}
+
+.container {
+  margin-top: 10px;
+  padding-bottom: 30px; 
+  background-color: rgba(255,165,0,0.8);
+  border-radius: 3%;
+}
+
+.container .logo {
+  width: 310px;
+  margin: 0 auto;
+  margin-bottom: -35px;
+}
+
+.container .logo img {
+  height: 90px;
+  padding-left: 10px;
+  padding-top: 20px;
+}
+
+.container .judul {
+  width: 250px;
+  margin: 0 auto;
+}
+
+.judul h1 {
+  font-size: 45px;
+}
+
+.namalengkap {
+  width: 700px;
+  height: 50px;
+  margin: 0 auto;
+}
+
+.namalengkap ul li {
+  display: inline-block;
+}
+
+
+.namalengkap input{
+  width: 250px;
+  height: 50px;
+
+}
+
+#titiknama {
+  padding-left: 100px;
+  padding-right: 50px;
+}
+
+.notelp {
+  width: 700px;
+  height: 50px;
+  margin: 0 auto;
+}
+
+.notelp ul li {
+  display: inline-block;
+}
+
+.notelp input{
+  width: 250px;
+  height: 50px;
+
+}
+
+#titiknotelp {
+  padding-left: 99px;
+  padding-right: 50px;
+}
+
+.email {
+  width: 700px;
+  height: 50px;
+  margin: 0 auto;
+}
+
+.email ul li {
+  display: inline-block;
+}
+
+.email input{
+  width: 250px;
+  height: 50px;
+
+}
+
+#titikemail {
+  padding-left: 205px;
+  padding-right: 50px;
+}
+
+.usrname {
+  width: 700px;
+  height: 50px;
+  margin: 0 auto;
+}
+
+.usrname ul li {
+  display: inline-block;
+}
+
+.usrname input{
+  width: 250px;
+  height: 50px;
+
+}
+
+#titikusrname {
+  padding-left: 162px;
+  padding-right: 50px;
+}
+
+.password {
+  width: 700px;
+  height: 50px;
+  margin: 0 auto;
+  padding-bottom: 20px
+}
+
+.password ul li {
+  display: inline-block;
+}
+
+.password input{
+  width: 250px;
+  height: 50px;
+  margin-bottom: 20px;
+}
+
+#titikpassword {
+  padding-left: 170px;
+  padding-right: 50px;
+}
+
+.submit {
+  background-color: green;
+  margin-top: 10px;
+  margin: 0 auto;
+  height: 40px;
+  width: 350px;
+  padding-top: 4px;
+  padding-left: 250px;
+}
+
+.submit a:hover {
+  color: black;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.gogel {
+  position: relative;
+  background-color: maroon;
+  width: 200px;
+  height: 40px;
+  margin-left: 210px;
+  padding-left: 100px;
+  padding-top: 4px;
+  margin-top: 10px;
+}
+
+.gogel a:hover {
+  color: black;
+}
+
+.fb {
+  position: relative;
+  margin-top: -44px;
+  background-color: skyblue;
+  width: 220px;
+  height: 40px;
+  margin-left: 510px;
+  padding-left: 80px;
+  padding-top: 4px;
+}
+
+.fb a:hover {
+  color: black;
+}
+
+.logocr img {
+  float: left;
+  width: 25px;
+  padding: 2px;
+}
+
+.copyright {
+  width: 100%;
+  height: 30px;
+  background-color: grey;
+}
+
+.textcopy {
+  float: left;
+  padding-top: 5px;
+}
+
+.about li {
+  float: right;
+}
+
+.about ul li {
+  display: inline-block;
+  margin-right: 10px;
+  padding-top: 5px;
+}
+
+.about li a {
+  color: white;
+  padding: 5px;
+  text-decoration: none;
+}
+
+.about li a:hover {
+  color: black;
+}
+
+
+
+/*Tabel*/
+table {
+  padding-top: 20px;
+}
+
+table td {
+  border: solid black;
+}
+
+th {
+  border: solid ;
+}
+
+.containertab {
+  margin-top: 10px;
+  padding-bottom: 30px; 
+  background-color: rgba(255,165,0,0.7);
+}
