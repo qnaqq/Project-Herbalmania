@@ -113,6 +113,110 @@ a {
   text-align: justify;
 }
 
+.komen {
+  width: 100%;
+  background-color: rgb(255, 173, 51);
+}
+
+.komen form {
+  margin-left: 5%;
+}
+
+.komen input {
+  width: 49.5%;
+}
+
+.komen textarea {
+  width: 50%;
+  font-size: 15px;
+  font-family: serif;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.komen button {
+  margin-left: 5%;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  background-color: black;
+  color: white;
+  border: none;
+  height: 40px;
+}
+
+.komen button:hover {
+  background-color: rgb(0, 204, 0);
+  color: black;
+}
+
+.lainnya p {
+  margin-left: 5%;
+}
+
+.more1 {
+  position: absolute;
+  width: 260px;
+  margin-left: 20px;
+  padding-bottom: 20px;
+  font-size: 20px;
+}
+
+.more1 a{
+  color: black;
+}
+
+.more1 a:hover {
+  color: grey;
+}
+
+.more1 img {
+  width: 100%;
+}
+
+.more2 {
+  position: absolute;
+  width: 260px;
+  margin-left: 300px;
+  padding-bottom: 20px;
+  font-size: 20px;
+}
+
+.more2 a{
+  color: black;
+}
+
+.more2 a:hover {
+  color: grey;
+}
+
+.more2 img {
+  width: 100%;
+}
+
+.more3 {
+  position: relative;
+  width: 260px;
+  margin-left: 580px;
+  padding-bottom: 20px;
+  font-size: 20px;
+}
+
+.more3 a{
+  color: black;
+}
+
+.more3 a:hover {
+  color: grey;
+}
+
+.more3 img {
+  width: 100%;
+}
+
+
+
+
+
 
 
 .footer {
