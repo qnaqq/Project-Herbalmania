@@ -5,11 +5,6 @@ body {
   background-repeat: no-repeat;
 }
 
-a {
-  text-decoration: none;
-  color: white;
-}
-
 .bodycontainer {
   background-color: rgba(255,140,0,0.9);
   width: 80%;
@@ -17,103 +12,154 @@ a {
   margin: 0 auto;
 }
 
+
+
+.header {
+  height: 300px;
+  width: 80%;
+  margin: 0 auto;
+  background-color: rgba(255, 133, 51, 0.9);
+}
+
+.header .logo {
+  position: relative;
+  width: 300px;
+  height: 30%;
+  margin: 0 auto;
+  padding-top: 100px;
+}
+
+.header img {
+  padding-left: 3px;
+  height: 100%;
+}
+
+
+
+
+
 .navbar {
   width: 80%;
-  height: 80px;
+  height: 50px;
   margin: 0 auto;
+  margin-top: 50px;
   margin-bottom: 10px;
   background-color: rgb(255,69,0);
 }
 
-.navbar .logo {
-  position: relative;
-  width: 25%;
-  margin: 0px;
-}
-
-.navbar .logo img {
-  padding-top: 10px;
-  margin-left: -20px;
-  height: 60px; 
-}
-
-.logo ul li {
-  display: inline-block;
-}
-
 .isinav {
+  width: 80%;
   position: relative;
-  height: 75px;
-  width: 69%;
-  margin-top: -91px;
-  margin-left: 225px;
+  height: 50px;
+  margin-top: -90px;
+  margin-left: -35px;
 }
 
 .isinav ul li {
   display: inline-block;
-  margin-right: 53px;
-  padding-top: 30px;
-  margin-left: -35px; 
-  height: 75px;
+  margin-left: -5px;
 }
 
-.isinav li a:hover {
+.isinav button {
+  background-color: rgb(255,69,0);
+  font-family: sans-serif, Arial;
+  font-size: 15px;
   color: black;
+  border: none;
+  width: 150px;
+  height: 50px;
+}
+
+.isinav button:hover {
+  background-color: rgb(255, 163, 102);
 }
 
 .masuk {
   position: relative;
-  height: 75px;
-  width: 9%;
-  margin-left: 91%; 
-  margin-top: -91px;
+  margin-left: 80.2%;
+  margin-top: -50px;
+  height: 50px;
+  width: 100px;
 }
 
-.masuk ul li {
-  display: inline-block;
-  float: right;
-  padding-top: 30px;
-  margin-right: 20px;
-}
-
-.masuk li a:hover{
+.masuk button {
+  background-color: rgb(255,69,0);
+  font-family: sans-serif, Arial;
+  font-size: 15px;
   color: black;
+  border: none;
+  width: 100px;
+  height: 50px;
 }
+
+.masuk button:hover {
+  background-color: rgb(255, 163, 102);
+}
+
+.daftar {
+  position: relative;
+  margin-left: 90.2%;
+  margin-top: -50px;
+  height: 50px;
+  width: 100px;
+}
+
+.daftar button {
+  background-color: rgb(255,69,0);
+  font-family: sans-serif, Arial;
+  font-size: 15px;
+  color: black;
+  border: none;
+  width: 100px;
+  height: 50px;
+}
+
+.daftar button:hover {
+  background-color: rgb(255, 163, 102);
+}
+
+
+
+
 
 
 
 .mint {
-  width: 300px;
+  width: 200px;
   margin: 0 auto;
-  padding-top: 20px;
+  padding-top: 40px;
 }
 
 .mint img {
-  width: 300px;
-  border-radius: 100px;
+  box-shadow: 10px 8px 50px;
+  width: 200px;
+  border-radius: 100%;
 }
 
 .penjelasan {
-  width: 60%;
+  width: 50%;
+  padding-top: 20px;
   margin: 0 auto;
 }
 
 #definisi {
-  font-family: Trebuchet MS, Trebushet MS;
-  font-size: 25px;
+  font-family: sans-serif, Arial;
+  font-size: 15px;
 }
 
 .cari {
   width: 400px;
-  padding-top: 60px;
+  padding-top: 40px;
   margin-left: 25%;
 }
 
 .cari input {
+  padding-left: 20px;
   width: 400px;
   height: 60px;
   font-size: 25px;
-  text-align: center;
+  background-color: rgba(255,255,255,0.5);
+  border: none;
 }
 
 .buttoncari {
@@ -128,162 +174,163 @@ a {
   height: 60px;
   width: 80px;
   font-size: 25px;
-  background-color: green;
+  background-color: rgb(0, 204, 0);
   border-style: none;
 }
 
+.buttoncari button:hover {
+  background-color: green;
+}
+
 .iconnavbar {
-  width: 95%;
+  width: 70%;
+  height: 200px;
   margin: 0 auto;
-  margin-top: 100px;
+  margin-top: 90px;
   margin-bottom: 100px;
 }
 
-.olaholah {
-  position: relative;
-  border-radius: 10px;
-  margin-left: 20px;
+.iconnavbar ul li {
+  display: inline-block;
+}
+
+.iconnavbar button {
+  background-color: rgb(255,69,0);
+  margin: 20px;
   width: 250px;
   height: 80px;
-  padding-top: 3px;
-  text-align: center;
-  background-color: green;
+  font-size: 25px;
+  border: none;
 }
 
-.olaholah:hover a {
-  opacity: 0.8
-}
-
-.budi {
+.iconnavbar button:hover {
+  box-shadow: 10px 10px 50px rgb(255,69,0);
   position: relative;
-  border-radius: 10px;
-  margin-left: 34%; 
-  margin-top: -85px;
-  width: 250px;
-  height: 80px;
-  padding-top: 3px;
-  text-align: center;
-  background-color: green;
+  height: 100px;
+  width: 270px;
+  background-color: rgb(255, 163, 102);
 }
 
-.budi a:hover {
-  opacity: 0.8;
-}
-
-.RMan {
-  position: relative;
-  border-radius: 10px;
-  margin-top: -85px;
-  margin-left: 65%;
-  width: 320px;
-  height: 80px;
-  padding-top: 3px;
-  text-align: center;
-  background-color: green;
-}
-
-.RMan a:hover {
-  opacity: 0.8;
-} 
 
 .kenapa {
+  padding-top: 100px;
   width: 80%;
   margin: 0 auto;
 }
 
-#why {
+.kenapa p {
   font-family: Arial Black, Arial;
   font-size: 50px;
 }
 
-.satu {    
+.satu {
+  position: relative;
+  text-align: center;
+  background-color: rgb(255, 204, 0);
+  font-size: 25px;
+  font-family: sans-serif, Arial;
+  margin-left: 50px;
+  margin-top: -300px;
   width: 60px;
-  margin-left: 40px;
-}
-
-.satu img {
-  width: 60px;
+  height: 60px;
+  border-radius: 100%;
 }
 
 .satudef {
+  position: relative;
+  padding: 20px;
+  border-radius: 30px;
+  background-color: rgb(255, 179, 102);
   position: relative;                           
-  margin-left: 110px;                     
-  margin-top: -40px;
-  width: 60%;
-}
-
-.satudef #defsatu {
-  text-align: justify;
-}
-
-.duadef {
-  float: right;
-  margin-top: 20px;
-  width: 60%;
-}
-
-.duadef #defdua {
+  margin-left: 80px;
+  width: 65%;
+  font-family: sans-serif, Arial;
   text-align: justify;
 }
 
 .dua {
   position: relative;
-  float: right;
+  text-align: center;
+  background-color: rgb(255, 204, 0);
+  font-size: 25px;
+  font-family: sans-serif, Arial;
+  margin-left: 50px;
+  margin-top: -260px;
   width: 60px;
-  margin-right: 40px;
+  height: 60px;
+  border-radius: 100%;
 }
 
-.dua img {
-  width: 60px;
-}
-
-.tiga {
-  position: absolute;
-  width: 60px;
-  margin-left: 40px;
-  margin-top: 180px;
-}                                                                                                                          
-                  
-.tiga img {
-  width: 60px;
-}
-
-.tigadef {
+.duadef {
+  padding: 20px;
+  margin-top: 300px;
+  border-radius: 30px;
+  background-color: rgb(255, 179, 102);
   position: relative;                           
-  margin-left: 110px;                     
-  margin-top: 230px;
-  width: 60%;
-}
-
-.tigadef #deftiga {
+  margin-left: 80px;
+  width: 65%;
+  font-family: sans-serif, Arial;
   text-align: justify;
 }
 
-.empatdef {
-  margin-left: 19%;
-  margin-top: 55px;
-  padding-bottom: 30px;
-  width: 70%;
+.tiga {
+  position: relative;
+  text-align: center;
+  background-color: rgb(255, 204, 0);
+  font-size: 25px;
+  font-family: sans-serif, Arial;
+  margin-left: 50px;
+  margin-top: -300px;
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
 }
 
-.empatdef #defempat {
+.tigadef {
+  padding: 20px;
+  margin-top: 250px;
+  border-radius: 30px;
+  background-color: rgb(255, 179, 102);
+  position: relative;                           
+  margin-left: 80px;
+  width: 65%;
+  font-family: sans-serif, Arial;
   text-align: justify;
 }
 
 .empat {
-  float: right;
+  position: relative;
+  text-align: center;
+  background-color: rgb(255, 204, 0);
+  font-size: 25px;
+  font-family: sans-serif, Arial;
+  margin-left: 50px;
+  margin-top: -370px;
   width: 60px;
-  margin-right: 40px;
+  height: 60px;
+  border-radius: 100%;
 }
 
-.empat img {
-  width: 60px;
+.empatdef {
+  padding: 20px;
+  margin-top: 280px;
+  border-radius: 30px;
+  background-color: rgb(255, 179, 102);
+  position: relative;                           
+  margin-left: 80px;
+  width: 65%;
+  font-family: sans-serif, Arial;
+  text-align: justify;
 }
+
+
 
 
 
 
 .bawah {
+  position: relative;
+  margin-top: 350px;
   width: 100%;
 }
 
@@ -291,44 +338,52 @@ a {
   width: 100%;
 }
 
+
+
 .footer {
+  padding-top: 20px;
   width: 80%;
   margin: 0 auto;
 }
 
 .logocr img {
   float: left;
-  width: 25px;
-  padding: 2px;
+  width: 40px;
+  padding-top: 5px;
 }
 
 .copyright {
   width: 100%;
-  height: 30px;
+  height: 50px;
   background-color: grey;
 }
 
 .textcopy {
-  float: left;
-  padding-top: 5px;
+  width: 400px;
+  margin-left: 50px;
+  padding-top: 15px;
 }
 
-.about li {
+.about {
+  position: relative;
+  height: 50px;
+  width: 100px;
   float: right;
-}
-
-.about ul li {
-  display: inline-block;
+  margin-top: -34px;
   margin-right: 10px;
-  padding-top: 5px;
 }
 
-.about li a {
+.about button {
+  height: 100%;
+  width: 100%;
+  border: none;
+  background-color: grey;
   color: white;
-  padding: 5px;
-  text-decoration: none;
+  font-size: 15px;
+  font-family: sans-serif, Arial;
 }
 
-.about li a:hover {
+.about button:hover {
+  background-color: rgb(255, 163, 102);
   color: black;
 }
