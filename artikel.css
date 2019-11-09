@@ -5,10 +5,6 @@ body {
   background-repeat: no-repeat;
 }
 
-a {
-  text-decoration: none;
-  color: white;
-}
 
 .bodycontainer {
   width: 70%;
@@ -26,57 +22,96 @@ a {
 .navbar .logo {
   position: relative;
   width: 25%;
-  margin: 0px;
+  height: 60px;
 }
 
 .navbar .logo img {
   padding-top: 10px;
   margin-left: -20px;
-  height: 60px; 
+  height: 100%; 
 }
 
 .logo ul li {
   display: inline-block;
 }
 
+
+
 .isinav {
+  width: 80%;
   position: relative;
-  height: 75px;
-  width: 69%;
-  margin-top: -91px;
-  margin-left: 225px;
+  height: 50px;
+  margin-top: -90px;
+  margin-left: -35px;
 }
 
 .isinav ul li {
   display: inline-block;
-  margin-right: 53px;
-  padding-top: 30px;
-  margin-left: -35px; 
-  height: 75px;
+  margin-left: -5px;
 }
 
-.isinav li a:hover {
+.isinav button {
+  background-color: rgb(255,69,0);
+  font-family: sans-serif, Arial;
+  font-size: 15px;
   color: black;
+  border: none;
+  width: 150px;
+  height: 50px;
+}
+
+.isinav button:hover {
+  background-color: rgb(255, 163, 102);
 }
 
 .masuk {
   position: relative;
-  height: 75px;
-  width: 9%;
-  margin-left: 91%; 
-  margin-top: -91px;
+  margin-left: 80.2%;
+  margin-top: -50px;
+  height: 50px;
+  width: 100px;
 }
 
-.masuk ul li {
-  display: inline-block;
-  float: right;
-  padding-top: 30px;
-  margin-right: 20px;
-}
-
-.masuk li a:hover{
+.masuk button {
+  background-color: rgb(255,69,0);
+  font-family: sans-serif, Arial;
+  font-size: 15px;
   color: black;
+  border: none;
+  width: 100px;
+  height: 50px;
 }
+
+.masuk button:hover {
+  background-color: rgb(255, 163, 102);
+}
+
+.daftar {
+  position: relative;
+  margin-left: 90.2%;
+  margin-top: -50px;
+  height: 50px;
+  width: 100px;
+}
+
+.daftar button {
+  background-color: rgb(255,69,0);
+  font-family: sans-serif, Arial;
+  font-size: 15px;
+  color: black;
+  border: none;
+  width: 100px;
+  height: 50px;
+}
+
+.daftar button:hover {
+  background-color: rgb(255, 163, 102);
+}
+
+
+
+
+
 
 .container {
   background-color: orange;

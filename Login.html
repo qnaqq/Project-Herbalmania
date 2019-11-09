@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Sign Up | Herbalmania.com</title>
+	<title>Login | Herbalmania.com</title>
 	<link rel="stylesheet" type="text/css" href="signupp.css">
 </head>
 <body>
@@ -23,7 +23,7 @@
 			</ul>
 		</div>
 		<div class="masuk">
-			<a href="Login.html"><button>Masuk</button></a>
+			<a href="#"><button>Masuk</button></a>
 		</div>
 		<div class="daftar">
 			<a href="Sign up.html"><button>Daftar</button></a>
@@ -31,16 +31,26 @@
 	</div>
 
 
-	<div class="containerlagimasuk">
-		<h1>Daftar</h1>
+	<div class="containerlagi">
+		<h1>Masuk</h1>
 		<form>
-			<input type="text" placeholder="Nama" id="nama">
-			<input type="number" placeholder="Nomor Telepon" id="nomor">
-			<input type="text" placeholder="E-Mail">
 			<input type="text" placeholder="Username">
 			<input type="password" placeholder="Password">
 		</form>
-		<button id="simpan" onclick="tampilkan_nama()"><b>Simpan</b></button>
+		<button id="simpan"><b>Masuk</b></button>
+		<ul>
+			<li><a href="https://www.facebook.com"><button id="fb">Facebook</button></a></li>
+			<li><a href="https://mail.google.com"><button id="google">Google</button></a></li>
+		</ul>
+		<div class="masukdg">
+			<h1>Masuk dengan:</h1>
+		</div>
+		<div class="fb">
+			<a href="https://www.facebook.com"><img src="fb.png"></a>
+		</div>
+		<div class="gmail">
+			<a href="https://mail.google.com"><img src="gmail.png"></a>
+		</div>
 	</div>
 
 
@@ -57,11 +67,5 @@
 			</div>
 		</div>
 	</div>
-
-<script type="text/javascript">
-function tampilkan_nama(){
-	document.getElementById("s").innerHTML = alert("Terimakasih");
-}
-</script>
 </body>
 </html>

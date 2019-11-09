@@ -5,294 +5,362 @@ body {
   background-repeat: no-repeat;
 }
 
-.bodycontainer {
-  width: 80%;
+.lay {
+  position: absolute;
+  margin-left: -10px;
+  margin-top: -10px;
+  width: 100%;
   height: 100%;
-  margin-top: 0;
-  margin: 0 auto;
+  background-color: rgba(0,0,0,0.8);
+}
+
+a {
+  text-decoration: none;
 }
 
 .navbar {
-  width: 100%;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  width: 80%;
+  margin: 0 auto;
   height: 80px;
-  background-color: rgba(255,69,0,0.9);
+  background-color: rgb(255,69,0);
 }
 
 .navbar .logo {
+  width: 200px;
   position: relative;
-  width: 25%;
-  margin: 0px;
 }
 
 .navbar .logo img {
-  padding-top: 10px;
+  padding-top: 6px;
   margin-left: -20px;
-  height: 60px; 
+  height: 45px;
 }
 
 .logo ul li {
   display: inline-block;
 }
 
+
+
 .isinav {
+  width: 80%;
   position: relative;
-  height: 75px;
-  width: 69%;
-  margin-top: -91px;
-  margin-left: 225px;
+  height: 50px;
+  margin-top: -70px;
+  margin-left: 130px;
 }
 
 .isinav ul li {
   display: inline-block;
-  margin-right: 53px;
-  padding-top: 30px;
-  margin-left: -35px; 
-  height: 75px;
+  margin-left: -5px;
 }
 
-.isinav li a:hover {
+.isinav button {
+  background-color: rgb(255,69,0);
+  font-family: sans-serif, Arial;
+  font-size: 15px;
   color: black;
+  border: none;
+  width: 150px;
+  height: 50px;
+}
+
+.isinav button:hover {
+  background-color: rgb(255, 163, 102);
 }
 
 .masuk {
   position: relative;
-  height: 75px;
-  width: 9%;
-  margin-left: 91%; 
-  margin-top: -91px;
+  margin-left: 80.2%;
+  margin-top: -50px;
+  height: 50px;
+  width: 100px;
 }
 
-.masuk ul li {
-  display: inline-block;
-  float: right;
-  padding-top: 30px;
-  margin-right: 20px;
-}
-
-.masuk li a:hover{
+.masuk button {
+  background-color: rgb(255,69,0);
+  font-family: sans-serif, Arial;
+  font-size: 15px;
   color: black;
+  border: none;
+  width: 100px;
+  height: 50px;
 }
+
+.masuk button:hover {
+  background-color: rgb(255, 163, 102);
+}
+
+.daftar {
+  position: relative;
+  margin-left: 90.2%;
+  margin-top: -50px;
+  height: 50px;
+  width: 100px;
+}
+
+.daftar button {
+  background-color: rgb(255,69,0);
+  font-family: sans-serif, Arial;
+  font-size: 15px;
+  color: black;
+  border: none;
+  width: 100px;
+  height: 50px;
+}
+
+.daftar button:hover {
+  background-color: rgb(255, 163, 102);
+}
+
+
+
+
+
+
 
 .container {
-  margin-top: 10px;
-  padding-bottom: 30px; 
-  background-color: rgb(255,165,0);
-  border-radius: 3%;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-color: rgba(0,0,0,0.6);
 }
 
-.container .logo {
-  width: 310px;
-  margin: 0 auto;
-  margin-bottom: -35px;
+.containerlagi {
+  background-color: rgba(255,2552,255,0.2);
+  border-radius: 20px;
+  padding-left: 20px;
+  padding-bottom: 50px;
+  width: 30%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
 }
 
-.container .logo img {
-  height: 90px;
-  padding-left: 10px;
-  padding-top: 20px;
+.containerlagi h1 {
+  color: white;
+  font-family: sans-serif;
+  font-size: 25px;
+  text-shadow: 1px 1px 7px;
 }
 
-.container .judul {
-  width: 250px;
-  margin: 0 auto;
-}
-
-.judul h1 {
-  font-size: 45px;
-}
-
-.namalengkap {
-  width: 700px;
-  height: 50px;
-  margin: 0 auto;
-}
-
-.namalengkap ul li {
-  display: inline-block;
-}
-
-
-.namalengkap input{
-  width: 250px;
-  height: 50px;
-
-}
-
-#titiknama {
-  padding-left: 100px;
-  padding-right: 50px;
-}
-
-.notelp {
-  width: 700px;
-  height: 50px;
-  margin: 0 auto;
-}
-
-.notelp ul li {
-  display: inline-block;
-}
-
-.notelp input{
-  width: 250px;
-  height: 50px;
-
-}
-
-#titiknotelp {
-  padding-left: 99px;
-  padding-right: 50px;
-}
-
-.email {
-  width: 700px;
-  height: 50px;
-  margin: 0 auto;
-}
-
-.email ul li {
-  display: inline-block;
-}
-
-.email input{
-  width: 250px;
-  height: 50px;
-
-}
-
-#titikemail {
-  padding-left: 205px;
-  padding-right: 50px;
-}
-
-.usrname {
-  width: 700px;
-  height: 50px;
-  margin: 0 auto;
-}
-
-.usrname ul li {
-  display: inline-block;
-}
-
-.usrname input{
-  width: 250px;
-  height: 50px;
-
-}
-
-#titikusrname {
-  padding-left: 162px;
-  padding-right: 50px;
-}
-
-.password {
-  width: 700px;
-  height: 50px;
-  margin: 0 auto;
-  padding-bottom: 20px
-}
-
-.password ul li {
-  display: inline-block;
-}
-
-.password input{
-  width: 250px;
-  height: 50px;
-  margin-bottom: 20px;
-}
-
-#titikpassword {
-  padding-left: 170px;
-  padding-right: 50px;
-}
-
-.submit {
-  background-color: green;
-  margin-top: 10px;
-  margin: 0 auto;
-  height: 40px;
-  width: 350px;
-  padding-top: 4px;
-  padding-left: 250px;
-}
-
-.submit a:hover {
-  color: black;
-}
-
-a {
-  text-decoration: none;
+input {
+  margin-top: 20px;
+  background-color: transparent;
+  border: none;
+  text-shadow: 3px 3px 7px;
+  height: 30px;
+  width: 90%;
+  border-bottom: 2px solid rgb(255,255,255);
+  font-family: sans-serif;
+  font-size: 15px;
   color: white;
 }
 
-.gogel {
-  position: relative;
-  background-color: maroon;
-  width: 200px;
-  height: 40px;
-  margin-left: 210px;
-  padding-left: 100px;
-  padding-top: 4px;
-  margin-top: 10px;
+input[type=number] {
+    -moz-appearance:textfield;
 }
 
-.gogel a:hover {
-  color: black;
+.containerlagi #simpan {
+  background-color: rgb(51, 204, 51);
+  border: none;
+  margin-top: 20px;
+  height: 40px;
+  width: 120px;
+  font-size: 20px;
+  font-family: sans-serif;
+  color: white;
+  border-radius: 10px;
+}
+
+.containerlagi #simpan:hover {
+  color: white;
+  text-shadow: 2px 2px 7px;
+  box-shadow: 2px 2px 10px;
+}
+
+.containerlagi ul button {
+  margin-left: -40px;
+  margin-right: 50px;
+  border: none;
+  font-size: 20px;
+  font-family: sans-serif;
+  border-radius: 10px;
+  color: white;
+  margin-top: 50px;
+}
+
+#fb {
+  background-color: rgb(0, 82, 204);
+  text-align: left;
+  text-indent: 40px;
+  height: 40px;
+  width: 160px;
+}
+
+#fb:hover {
+  background-color: rgb(0, 153, 255)
+}
+
+#google {
+  background-color: rgb(204, 0, 0);
+  text-align: left;
+  text-indent: 40px;
+  height: 40px;
+  width: 130px;
+}
+
+#google:hover {
+  background-color: rgb(255, 77, 77);
+}
+
+.containerlagi ul li {
+  display: inline-block;
+}
+
+.masukdg {
+  width: 250px;
+  position: relative;
+  margin-top: -83px;
+}
+
+.masukdg h1 {
+  font-size: 15px;
 }
 
 .fb {
-  position: relative;
-  margin-top: -44px;
-  background-color: skyblue;
-  width: 220px;
-  height: 40px;
-  margin-left: 510px;
-  padding-left: 80px;
-  padding-top: 4px;
+  position: absolute;
+  height: 35px;
+  margin-left: 10px;
 }
 
-.fb a:hover {
-  color: black;
+.fb img {
+  height: 100%;
+}
+
+.gmail {
+  position: absolute;
+  height: 45px;
+  margin-top: -5px;
+  margin-left: 180px;
+}
+
+.gmail img {
+  height: 100%;
+}
+
+
+
+
+
+
+.containerlagimasuk {
+  background-color: rgba(255,2552,255,0.2);
+  border-radius: 20px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  width: 30%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.containerlagimasuk h1 {
+  color: white;
+  font-family: sans-serif;
+  font-size: 25px;
+  text-shadow: 1px 1px 7px;
+}
+
+.containerlagimasuk #simpan {
+  background-color: rgb(51, 204, 51);
+  border: none;
+  margin-top: 20px;
+  height: 40px;
+  width: 120px;
+  font-size: 20px;
+  font-family: sans-serif;
+  color: white;
+  border-radius: 10px;
+}
+
+.containerlagimasuk #simpan:hover {
+  color: white;
+  text-shadow: 2px 2px 7px;
+  box-shadow: 2px 2px 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.footer {
+  position: absolute;
+  top: 85%;
+  padding-top: 20px;
+  width: 80%;
+  left: 50%;
+  transform: translate(-50%);
 }
 
 .logocr img {
   float: left;
-  width: 25px;
-  padding: 2px;
+  width: 40px;
+  padding-top: 5px;
 }
 
 .copyright {
   width: 100%;
-  height: 30px;
+  height: 50px;
   background-color: grey;
 }
 
 .textcopy {
-  float: left;
-  padding-top: 5px;
+  width: 400px;
+  margin-left: 50px;
+  padding-top: 15px;
 }
 
-.about li {
+.about {
+  position: relative;
+  height: 50px;
+  width: 100px;
   float: right;
-}
-
-.about ul li {
-  display: inline-block;
+  margin-top: -34px;
   margin-right: 10px;
-  padding-top: 5px;
 }
 
-.about li a {
+.about button {
+  height: 100%;
+  width: 100%;
+  border: none;
+  background-color: grey;
   color: white;
-  padding: 5px;
-  text-decoration: none;
+  font-size: 15px;
+  font-family: sans-serif, Arial;
 }
 
-.about li a:hover {
+.about button:hover {
+  background-color: rgb(255, 163, 102);
   color: black;
 }
+
+
+
+
+
+
 
 
 
