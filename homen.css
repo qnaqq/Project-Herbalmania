@@ -147,40 +147,8 @@ body {
   font-size: 15px;
 }
 
-.cari {
-  width: 400px;
-  padding-top: 40px;
-  margin-left: 25%;
-}
 
-.cari input {
-  padding-left: 20px;
-  width: 400px;
-  height: 60px;
-  font-size: 25px;
-  background-color: rgba(255,255,255,0.5);
-  border: none;
-}
 
-.buttoncari {
-  position: relative;
-  float: right;
-  margin-right: 260px;
-  margin-top: -60px;
-  height: 60px;
-}
-
-.buttoncari button {
-  height: 60px;
-  width: 80px;
-  font-size: 25px;
-  background-color: rgb(0, 204, 0);
-  border-style: none;
-}
-
-.buttoncari button:hover {
-  background-color: green;
-}
 
 .iconnavbar {
   width: 70%;
@@ -213,7 +181,7 @@ body {
 
 
 .kenapa {
-  padding-top: 100px;
+  padding-top: 50px;
   width: 80%;
   margin: 0 auto;
 }
