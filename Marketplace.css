@@ -1,0 +1,271 @@
+body {
+  background-image: url(mejasendok.jpg);
+  background-attachment: scroll;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+a {
+  text-decoration: none;
+}
+
+.navbar {
+  width: 80%;
+  margin: 0 auto;
+  height: 80px;
+  background-color: rgb(255,69,0);
+}
+
+.navbar .logo {
+  width: 200px;
+  position: relative;
+}
+
+.navbar .logo img {
+  padding-top: 20px;
+  margin-left: -20px;
+  height: 45px;
+}
+
+.logo ul li {
+  display: inline-block;
+}
+
+
+
+.isinav {
+  width: 80%;
+  position: relative;
+  height: 50px;
+  margin-top: -70px;
+  margin-left: 130px;
+}
+
+.isinav ul li {
+  display: inline-block;
+  margin-left: -5px;
+}
+
+.isinav button {
+  background-color: rgb(255,69,0);
+  font-family: sans-serif, Arial;
+  font-size: 15px;
+  color: black;
+  border: none;
+  width: 150px;
+  height: 50px;
+}
+
+.isinav button:hover {
+  background-color: rgb(255, 163, 102);
+}
+
+.masuk {
+  position: relative;
+  margin-left: 80.2%;
+  margin-top: -50px;
+  height: 50px;
+  width: 100px;
+}
+
+.masuk button {
+  background-color: rgb(255,69,0);
+  font-family: sans-serif, Arial;
+  font-size: 15px;
+  color: black;
+  border: none;
+  width: 100px;
+  height: 50px;
+}
+
+.masuk button:hover {
+  background-color: rgb(255, 163, 102);
+}
+
+.daftar {
+  position: relative;
+  margin-left: 90.2%;
+  margin-top: -50px;
+  height: 50px;
+  width: 100px;
+}
+
+.daftar button {
+  background-color: rgb(255,69,0);
+  font-family: sans-serif, Arial;
+  font-size: 15px;
+  color: black;
+  border: none;
+  width: 100px;
+  height: 50px;
+}
+
+.daftar button:hover {
+  background-color: rgb(255, 163, 102);
+}
+
+
+
+
+
+
+
+
+
+
+.container {
+  background-color: rgba(255,140,0,0.9);
+  width: 80%;
+  margin: 0 auto;
+  margin-top: -10px;
+  padding-bottom: 20px; 
+}
+
+.container h1 {
+  padding: 20px;
+  padding-left: 50px;
+}
+
+.produk {
+  background-color: orange;
+  display: inline-block;
+  width: 250px;
+  margin-left: 50px;
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+  padding: 10px;
+  font-family: sans-serif;
+}
+
+.produk img {
+  width: 100%;
+}
+
+.produk p {
+  text-align: right;
+  margin-top: -10px;
+  font-size: 13px;
+}
+
+.produk button {
+  border: none;
+  height: 40px;
+  width: 100px;
+  font-size: 20px;
+  background-color: green;
+  color: white;
+}
+
+.produk button:hover {
+  background-color: lime;
+  color: black;
+}
+
+
+
+
+
+
+.gambarproduk img {
+  margin-left: 20px;
+  width: 40%;
+}
+
+.lihatproduk {
+  position: relative;
+  margin-top: -400px;
+  float: right;
+  width: 550px;
+}
+
+.lihatproduk h2 {
+  font-size: 35px;
+}
+
+.lihatproduk h3 {
+  font-size: 45px;
+}
+
+.lihatproduk p {
+  font-size: 20px;
+}
+
+.lihatproduk button {
+  border: none;
+  margin-right: 10px;
+  height: 40px;
+  width: 200px;
+  font-size: 20px;
+  background-color: green;
+  color: white;
+}
+
+.lihatproduk button:hover {
+  background-color: lime;
+  color: black;
+}
+
+.detailproduk {
+  margin-top: 50px;
+  width: 50%;
+  font-size: 18px;
+  margin-left: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.footer {
+  padding-top: 20px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.logocr img {
+  float: left;
+  width: 40px;
+  padding-top: 5px;
+}
+
+.copyright {
+  width: 100%;
+  height: 50px;
+  background-color: grey;
+}
+
+.textcopy {
+  width: 400px;
+  margin-left: 50px;
+  padding-top: 15px;
+}
+
+.about {
+  position: relative;
+  height: 50px;
+  width: 100px;
+  float: right;
+  margin-top: -34px;
+  margin-right: 10px;
+}
+
+.about button {
+  height: 100%;
+  width: 100%;
+  border: none;
+  background-color: grey;
+  color: white;
+  font-size: 15px;
+  font-family: sans-serif, Arial;
+}
+
+.about button:hover {
+  background-color: rgb(255, 163, 102);
+  color: black;
+}
