@@ -41,24 +41,48 @@
 			<p>Toko Sumber Rejeki</p>
 			<br><br><br>
 			<h3>Rp 100.000</h3>
-			<button id="hubungi">Hubungi Penjual</button>
-			<div class="box">
-				Toko Sumber Rejeki: <br>+6285-8899-0765 / 745-755
-			</div>
-		</div>
- 
-		<div id="bg"></div>
+
+			<div id="bg"></div>
 		<!-- modal -->
 			<button id="tombol">Beli</button>
 			<div id="bg"></div>
 			<div id="modal-kotak">
-			<div id="atas">
-				Halo . ini adalah modal dialog | MalasNgoding.com
+				<div id="bawah">
+					<button id="tombol-tutup">X</button>
+				</div>
+				<div id="atas">
+					<div class="containerlagi">
+						<h1>Masuk</h1>
+						<form>
+							<input type="text" placeholder="Username">
+							<input type="password" placeholder="Password">
+						</form>
+						<button id="simpan"><b>Masuk</b></button>
+						<ul>
+							<li><a href="https://www.facebook.com"><button id="fb">Facebook</button></a></li>
+							<li><a href="https://mail.google.com"><button id="google">Google</button></a></li>
+						</ul>
+						<div class="masukdg">
+							<h1>Masuk dengan:</h1>
+						</div>
+						<div class="fb">
+							<a href="https://www.facebook.com"><img src="fb.png"></a>
+						</div>
+						<div class="gmail">
+							<a href="https://mail.google.com"><img src="gmail.png"></a>
+						</div>
+					</div>
+				</div>
+				
 			</div>
-			<div id="bawah">
-				<button id="tombol-tutup">X</button>
+			<button id="hubungi">Hubungi Penjual</button>
+			<div class="box">
+				Toko Sumber Rejeki: <br>+6285-8899-0765 / 745-755
 			</div>
-		</div>	
+		
+		</div>
+ 
+			
 
 
 
@@ -102,6 +126,7 @@
 			$('#modal-kotak , #bg').fadeOut("slow");
 		});
 	});	
+
 
 	$(document).ready(function(){
 		$('#hubungi').click(function(){

@@ -281,18 +281,141 @@ a {
   left: 50%;
   transform: translate(-50%,-50%);
   width: 500px; 
-  height: 200px;
+  height: 500px;
   position: absolute;
   position:fixed;
   display: none;
   z-index: 1002;
-  background: white;  
+  background: orange;
 }
 #atas{
   font-size: 15pt;
   padding: 20px;  
   height: 80%;
 }
+
+#modal-kotak .containerlagi {
+  width: 95%;
+  height: 100%;
+  border-radius: 5%;
+  background-color: white;
+  opacity: 0.7;
+  padding-left: 20px;
+  margin-top: 10px;
+}
+
+#modal-kotak .containerlagi h1 {
+  color: black;
+  font-family: sans-serif;
+  font-size: 25px;
+  text-shadow: none;
+}
+
+#modal-kotak input {
+  margin-top: 20px;
+  background-color: transparent;
+  border: none;
+  text-shadow: none;
+  height: 30px;
+  width: 90%;
+  border-bottom: 2px solid black;
+  font-family: sans-serif;
+  font-size: 15px;
+  color: black;
+}
+
+#modal-kotak .containerlagi #simpan {
+  background-color: rgb(51, 204, 51);
+  border: none;
+  margin-top: 20px;
+  height: 40px;
+  width: 120px;
+  font-size: 20px;
+  font-family: sans-serif;
+  color: white;
+  border-radius: 10px;
+}
+
+#modal-kotak .containerlagi #simpan:hover {
+  color: white;
+  text-shadow: 2px 2px 7px;
+  box-shadow: 2px 2px 10px;
+}
+
+#modal-kotak .containerlagi ul button {
+  margin-left: -40px;
+  margin-right: 50px;
+  border: none;
+  font-size: 20px;
+  font-family: sans-serif;
+  border-radius: 10px;
+  color: white;
+  margin-top: 30px;
+}
+
+#modal-kotak #fb {
+  background-color: rgb(0, 82, 204);
+  text-align: left;
+  text-indent: 40px;
+  height: 40px;
+  width: 160px;
+}
+
+#modal-kotak #fb:hover {
+  background-color: rgb(0, 153, 255)
+}
+
+#modal-kotak #google {
+  background-color: rgb(204, 0, 0);
+  text-align: left;
+  text-indent: 40px;
+  height: 40px;
+  width: 130px;
+}
+
+#modal-kotak #google:hover {
+  background-color: rgb(255, 77, 77);
+}
+
+#modal-kotak .containerlagi ul li {
+  display: inline-block;
+}
+
+#modal-kotak .masukdg {
+  width: 250px;
+  position: relative;
+  margin-top: -125px;
+}
+
+#modal-kotak .masukdg h1 {
+  font-size: 15px;
+}
+
+#modal-kotak .fb {
+  position: absolute;
+  height: 35px;
+  margin-left: 10px;
+}
+
+#modal-kotak .fb img {
+  height: 100%;
+}
+
+#modal-kotak .gmail {
+  position: absolute;
+  height: 45px;
+  margin-top: -5px;
+  margin-left: 180px;
+}
+
+#modal-kotak .gmail img {
+  height: 100%;
+}
+
+
+
+
+
 #bawah{
   background: #fff;
 }
@@ -301,10 +424,17 @@ a {
   background: #e74c3c;
 }
 #tombol-tutup,#tombol{
+  float: right;
   height: 30px;
   width: 100px;
-  color: #fff;
-  border: 0px;
+  color: white;
+  background-color: orange;
+  border: none;
+}
+
+#tombol-tutup:hover{
+  background-color: yellow;
+  color: black;
 }
 #bg{
   opacity:.80;
@@ -320,7 +450,20 @@ a {
   opacity: 0.6;
 }
 #tombol{
-  background: #e74c3c;        
+  border: none;
+  margin-right: 100px;
+  float: right;
+  height: 40px;
+  width: 200px;
+  font-size: 20px;
+  background-color: green;
+  color: white;
+}
+
+#tombol:hover {
+  background-color: lime;
+  color: black;
+}        
 }
 
 

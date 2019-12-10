@@ -279,6 +279,7 @@ input[type=number] {
 
 .containerlagimasuk #simpan {
   background-color: rgb(51, 204, 51);
+  position: relative;
   border: none;
   margin-top: 20px;
   height: 40px;
@@ -290,6 +291,26 @@ input[type=number] {
 }
 
 .containerlagimasuk #simpan:hover {
+  color: white;
+  text-shadow: 2px 2px 7px;
+  box-shadow: 2px 2px 10px;
+}
+
+.containerlagimasuk #punya-akun {
+  background-color: rgb(51, 204, 51);
+  border: none;
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 5px;
+  height: 40px;
+  width: 200px;
+  font-size: 15px;
+  font-family: sans-serif;
+  color: white;
+  border-radius: 10px;
+}
+
+.containerlagimasuk #punya-akun:hover {
   color: white;
   text-shadow: 2px 2px 7px;
   box-shadow: 2px 2px 10px;
@@ -363,22 +384,156 @@ input[type=number] {
 
 
 
-
-/*Tabel*/
-table {
-  padding-top: 20px;
+#modal-kotak{
+  margin: 2% 30% 30% 30%;
+  width: 500px; 
+  height: 400px;
+  position: absolute;
+  position:fixed;
+  z-index:1002;
+  display: none;
+  background: orange;
 }
 
-table td {
-  border: solid black;
+#atas{
+  background: #fff;
+}
+ 
+#tombol-tutup{  
+  background: #e74c3c;
+}
+#tombol-tutup,#tombol{
+  float: right;
+  height: 30px;
+  width: 100px;
+  color: #fff;
+  border: 0px;
+}
+#bg{
+  opacity:.80;
+  position: absolute;
+  display: none;
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  z-index:1001;
+  opacity: 0.8;
 }
 
-th {
-  border: solid ;
-}
-
-.containertab {
+#modal-kotak .containerlagi {
+  width: 90%;
+  background-color: white;
+  opacity: 0.7;
   margin-top: 10px;
-  padding-bottom: 30px; 
-  background-color: rgba(255,165,0,0.7);
+}
+
+#modal-kotak .containerlagi h1 {
+  color: black;
+  font-family: sans-serif;
+  font-size: 25px;
+  text-shadow: none;
+}
+
+#modal-kotak input {
+  margin-top: 20px;
+  background-color: transparent;
+  border: none;
+  text-shadow: none;
+  height: 30px;
+  width: 90%;
+  border-bottom: 2px solid black;
+  font-family: sans-serif;
+  font-size: 15px;
+  color: black;
+}
+
+#modal-kotak .containerlagi #simpan {
+  background-color: rgb(51, 204, 51);
+  border: none;
+  margin-top: 20px;
+  height: 40px;
+  width: 120px;
+  font-size: 20px;
+  font-family: sans-serif;
+  color: white;
+  border-radius: 10px;
+}
+
+#modal-kotak .containerlagi #simpan:hover {
+  color: white;
+  text-shadow: 2px 2px 7px;
+  box-shadow: 2px 2px 10px;
+}
+
+#modal-kotak .containerlagi ul button {
+  margin-left: -40px;
+  margin-right: 50px;
+  border: none;
+  font-size: 20px;
+  font-family: sans-serif;
+  border-radius: 10px;
+  color: white;
+  margin-top: 30px;
+}
+
+#modal-kotak #fb {
+  background-color: rgb(0, 82, 204);
+  text-align: left;
+  text-indent: 40px;
+  height: 40px;
+  width: 160px;
+}
+
+#modal-kotak #fb:hover {
+  background-color: rgb(0, 153, 255)
+}
+
+#modal-kotak #google {
+  background-color: rgb(204, 0, 0);
+  text-align: left;
+  text-indent: 40px;
+  height: 40px;
+  width: 130px;
+}
+
+#modal-kotak #google:hover {
+  background-color: rgb(255, 77, 77);
+}
+
+#modal-kotak .containerlagi ul li {
+  display: inline-block;
+}
+
+#modal-kotak .masukdg {
+  width: 250px;
+  position: relative;
+  margin-top: -83px;
+}
+
+#modal-kotak .masukdg h1 {
+  font-size: 15px;
+}
+
+#modal-kotak .fb {
+  position: absolute;
+  height: 35px;
+  margin-left: 10px;
+}
+
+#modal-kotak .fb img {
+  height: 100%;
+}
+
+#modal-kotak .gmail {
+  position: absolute;
+  height: 45px;
+  margin-top: -5px;
+  margin-left: 180px;
+}
+
+#modal-kotak .gmail img {
+  height: 100%;
 }

@@ -3,6 +3,9 @@
 <head>
 	<title>Sign Up | Herbalmania.com</title>
 	<link rel="stylesheet" type="text/css" href="signupp.css">
+	<script language="javascript" type="text/javascript" src="/javascript/jquery/jquery.js"></script>
+    <script language="javascript" type="text/javascript" src="/usr/share/javascript/jquery/jquery.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
 </head>
 <body>
 	<div class="lay">
@@ -40,9 +43,38 @@
 			<input type="text" placeholder="Username">
 			<input type="password" placeholder="Password">
 		</form>
-		<button id="simpan" onclick="tampilkan_nama()"><b>Simpan</b></button>
+		<button id="simpan"><b>Simpan</b></button>
+		<button id="punya-akun"><b>Sudah Punya Akun</b></button>
 	</div>
 
+	<div id="bg"></div>
+<!-- modal -->
+	<div id="modal-kotak">
+		<div id="atas">
+			<button id="tombol-tutup">X</button>
+		</div>
+		<div class="containerlagi">
+			<h1>Masuk</h1>
+			<form>
+				<input type="text" placeholder="Username">
+				<input type="password" placeholder="Password">
+			</form>
+			<button id="simpan"><b>Masuk</b></button>
+			<ul>
+				<li><a href="https://www.facebook.com"><button id="fb">Facebook</button></a></li>
+				<li><a href="https://mail.google.com"><button id="google">Google</button></a></li>
+			</ul>
+			<div class="masukdg">
+				<h1>Masuk dengan:</h1>
+			</div>
+			<div class="fb">
+				<a href="https://www.facebook.com"><img src="fb.png"></a>
+			</div>
+			<div class="gmail">
+				<a href="https://mail.google.com"><img src="gmail.png"></a>
+			</div>
+		</div>
+	</div>	
 
 	<div class="footer">
 		<div class="copyright">
@@ -59,9 +91,14 @@
 	</div>
 
 <script type="text/javascript">
-function tampilkan_nama(){
-	document.getElementById("s").innerHTML = alert("Terimakasih");
-}
+	$(document).ready(function(){
+		$('#punya-akun').click(function(){
+			$('#modal-kotak , #bg').fadeIn("slow");
+		});
+		$('#tombol-tutup').click(function(){
+			$('#modal-kotak , #bg').fadeOut("slow");
+		});
+	});
 </script>
 </body>
 </html>
