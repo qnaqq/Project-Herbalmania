@@ -3,6 +3,9 @@
 <head>
 	<title>Marketplace | Herbalmania.com</title>
 	<link rel="stylesheet" type="text/css" href="Marketplace.css">
+	<script language="javascript" type="text/javascript" src="/javascript/jquery/jquery.js"></script>
+    <script language="javascript" type="text/javascript" src="/usr/share/javascript/jquery/jquery.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
 </head>
 <body>
 	<div class="navbar">
@@ -38,9 +41,29 @@
 			<p>Toko Sumber Rejeki</p>
 			<br><br><br>
 			<h3>Rp 100.000</h3>
-			<button onclick="alert('Toko Sumber Rejeki: +62 85-8899-0765 / 745-755')">Hubungi Penjual</button>
-			<button>Beli</button>
+			<button id="hubungi">Hubungi Penjual</button>
+			<div class="box">
+				Toko Sumber Rejeki: <br>+6285-8899-0765 / 745-755
+			</div>
 		</div>
+ 
+		<div id="bg"></div>
+		<!-- modal -->
+			<button id="tombol">Beli</button>
+			<div id="bg"></div>
+			<div id="modal-kotak">
+			<div id="atas">
+				Halo . ini adalah modal dialog | MalasNgoding.com
+			</div>
+			<div id="bawah">
+				<button id="tombol-tutup">X</button>
+			</div>
+		</div>	
+
+
+
+
+
 
 		<div class="detailproduk">
 			<h2>Deskripsi</h2>
@@ -69,5 +92,22 @@
 				</div>
 			</div>
 	</div>
+
+<script type="text/javascript">
+	$(document).ready(function(){
+		$('#tombol').click(function(){
+			$('#modal-kotak , #bg').fadeIn("slow");
+		});
+		$('#tombol-tutup').click(function(){
+			$('#modal-kotak , #bg').fadeOut("slow");
+		});
+	});	
+
+	$(document).ready(function(){
+		$('#hubungi').click(function(){
+			$('.box').slideToggle();
+		});
+	});
+</script>
 </body>
 </html>
