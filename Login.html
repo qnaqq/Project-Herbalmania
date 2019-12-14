@@ -3,6 +3,9 @@
 <head>
 	<title>Login | Herbalmania.com</title>
 	<link rel="stylesheet" type="text/css" href="signupp.css">
+	<script language="javascript" type="text/javascript" src="/javascript/jquery/jquery.js"></script>
+    <script language="javascript" type="text/javascript" src="/usr/share/javascript/jquery/jquery.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
 </head>
 <body>
 	<div class="lay">
@@ -33,11 +36,12 @@
 
 	<div class="containerlagi">
 		<h1>Masuk</h1>
-		<form>
-			<input type="text" placeholder="Username">
-			<input type="password" placeholder="Password">
+		<form onSubmit="validasi()">
+			<input type="text" placeholder="Username" required id="usrname">
+			<input type="password" placeholder="Password" required id="psswrd">
+			<button id="simpan"><b>Masuk</b></button>
 		</form>
-		<button id="simpan"><b>Masuk</b></button>
+		
 		<ul>
 			<li><a href="https://www.facebook.com"><button id="fb">Facebook</button></a></li>
 			<li><a href="https://mail.google.com"><button id="google">Google</button></a></li>
@@ -67,5 +71,20 @@
 			</div>
 		</div>
 	</div>
+
+<script type="text/javascript">
+	function validasi(){
+		var username = document.getElementById("usrname").value;
+		var password = document.getElementById("psswrd").value;
+
+		if (username=="ardisgnd" && password=="sukasuka"){
+			alert("Selamat Datang!");
+		}
+		else {
+			alert("Username dan Password Anda salah!");
+		}
+	}
+</script>
+
 </body>
 </html>
